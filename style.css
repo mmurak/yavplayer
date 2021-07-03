@@ -1,0 +1,27 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.split{
+	display: table;
+	width: 100%;	
+}
+.split-item{
+	display: table-cell;
+	padding: 20px;
+	width: 440px;
+}
+.split-left{
+	background: #fff;
+	color: #0;
+	position: relative;
+}
+.split-left__inner{
+	height: 100%;
+	position: fixed;
+	width: 440px;
+}
+.split-right__inner{
+	height: 8000px;
+}
